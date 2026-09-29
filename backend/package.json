@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "GitGrove",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Siya Saxena",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^14.0.2",
+    "yargs": "^18.2.0"
+  }
+}
