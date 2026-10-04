@@ -10,6 +10,9 @@
   "author": "Siya Saxena",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "jsonwebtoken": "^9.0.3",
+    "socket.io": "^4.8.4",
     "uuid": "^14.0.2",
     "yargs": "^18.2.0"
   }

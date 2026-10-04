@@ -84,7 +84,7 @@ async function login(req, res) {
   }
 }
 
-const getAllUsers = (req, res)=>{
+const getAllUsers = async (req, res) => {
   try {
     await connectClient();
     const db = client.db("githubclone");
@@ -96,7 +96,7 @@ const getAllUsers = (req, res)=>{
     console.error("Error during fetching : ", err.message);
     res.status(500).send("Server error!");
   }
-}
+};
 
 async function getUserProfile(req, res) {
   const currentID = req.params.id;
